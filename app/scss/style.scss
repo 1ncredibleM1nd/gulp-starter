@@ -1,13 +1,5 @@
 @import "../../node_modules/swiper/swiper-bundle";
 @import "../../node_modules/normalize.css";
-@import "./ui.scss";
-@import "./scrollbar.scss";
-@import "./header.scss";
-@import "./footer.scss";
-@import "./cover.scss";
-@import "./fonts.scss";
-@import "./community.scss";
-@import "./clients.scss";
 
 *,
 html {
@@ -20,48 +12,4 @@ html,
 body {
     height: 100%;
     font-family: "Montserrat", sans-serif;
-}
-
-main {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.container {
-    width: 100%;
-    height: 100%;
-}
-
-@media (min-width: 1400px) and (max-width: 1920px) {
-    .container {
-        max-width: 1200px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .container {
-        max-width: 1000px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .container {
-        max-width: 800px;
-    }
-}
-
-@media (max-width: 800px) {
-    .container {
-        max-width: 600px;
-    }
-}
-
-@media (max-width: 600px) {
-    .container {
-        max-width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 }
