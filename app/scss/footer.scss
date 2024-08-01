@@ -1,0 +1,28 @@
+.footer {
+    background: #f0faed;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 170px;
+        height: 70px;
+        transform: translateX(-7px);
+    }
+
+    &__company {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    &__company-info {
+        font-size: 14px;
+    }
+}
